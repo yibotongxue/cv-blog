@@ -1,10 +1,14 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import MarkdownItKatex from "markdown-it-katex";
 
 export default defineUserConfig({
   base: '/cv-blog/',
   bundler: viteBundler(),
+  extendsMarkdown: (md) => {
+    md.use(MarkdownItKatex);
+  },
   theme: defaultTheme(
     {
       navbar: [
@@ -13,6 +17,14 @@ export default defineUserConfig({
           link: "https://github.com/yibotongxue/cv-blog"
         }
       ],
+      sidebar: [
+        {
+          text: "计算机视觉笔记",
+          children: [
+            "notes/dof"
+          ]
+        },
+      ]
     }
   ),
   lang: 'zh-CN',
