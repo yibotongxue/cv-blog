@@ -10,7 +10,7 @@ export default defineUserConfig({
       navbar: [
         {
           text: "GitHub",
-          link: "https://www.baidu.com"
+          link: "https://github.com/yibotongxue/cv-blog"
         }
       ],
     }
