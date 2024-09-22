@@ -1,0 +1,19 @@
+{
+  "name": "cv-blog",
+  "version": "1.0.0",
+  "description": "My computer vision blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "yibotongxue",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.15",
+    "@vuepress/theme-default": "^2.0.0-rc.46",
+    "sass-embedded": "^1.79.3",
+    "vuepress": "^2.0.0-rc.15"
+  }
+}
