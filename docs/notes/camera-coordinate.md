@@ -280,7 +280,7 @@ $$
   \end{matrix}
 \right]$ ，但是这样的合并并没有意义，因为我们比较容易拿到的是相机在世界坐标系下的坐标，从而可以推导出 $T$ ，但是要得到 $RT$ 却是需要经过计算的。
 
-经过我的合并，变换过程就可以简单的表示为
+经过我们的合并，变换过程就可以简单的表示为
 
 $$
 \left[
@@ -303,7 +303,12 @@ $$
   \end{matrix}
 \right] \left[
   \begin{matrix}
-  R & T \\
+  R & 0 \\
+  0 & 1
+  \end{matrix}
+\right] \left[
+  \begin{matrix}
+  I & T \\
   0 & 1
   \end{matrix}
 \right] \left[
