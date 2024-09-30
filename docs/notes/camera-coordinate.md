@@ -268,7 +268,17 @@ $$
   I & T \\
   0 & 1
   \end{matrix}
-\right]$ 。
+\right]$ 。一些文章将其合并为 $\left[
+  \begin{matrix}
+  R & T \\
+  0 & 1
+  \end{matrix}
+\right]$ ，这是不对的，正确的合成应该是 $\left[
+  \begin{matrix}
+  R & RT \\
+  0 & 1
+  \end{matrix}
+\right]$ ，但是这样的合并并没有意义，因为我们比较容易拿到的是相机在世界坐标系下的坐标，从而可以推导出 $T$ ，但是要得到 $RT$ 却是需要经过计算的。
 
 经过我的合并，变换过程就可以简单的表示为
 
