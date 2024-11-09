@@ -22,7 +22,8 @@ export default defineUserConfig({
           text: "计算机视觉笔记",
           children: [
             "notes/dof",
-            "notes/camera-coordinate"
+            "notes/camera-coordinate",
+            "notes/3d-vision"
           ]
         },
       ]
