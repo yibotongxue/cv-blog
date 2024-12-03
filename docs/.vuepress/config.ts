@@ -23,7 +23,8 @@ export default defineUserConfig({
           children: [
             "/notes/dof",
             "/notes/camera-coordinate",
-            "/notes/3d-vision"
+            "/notes/3d-vision",
+            "/notes/sfm"
           ]
         },
       ]
