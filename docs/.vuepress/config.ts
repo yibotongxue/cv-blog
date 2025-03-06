@@ -24,7 +24,8 @@ export default defineUserConfig({
             "/notes/dof",
             "/notes/camera-coordinate",
             "/notes/3d-vision",
-            "/notes/sfm"
+            "/notes/sfm",
+            "/notes/iMAP",
           ]
         },
       ]
