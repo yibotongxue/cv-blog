@@ -26,6 +26,7 @@ export default defineUserConfig({
             "/notes/3d-vision",
             "/notes/sfm",
             "/notes/iMAP",
+            "/notes/gaussian-splatting-slam",
           ]
         },
       ]
