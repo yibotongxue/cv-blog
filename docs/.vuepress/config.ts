@@ -27,6 +27,7 @@ export default defineUserConfig({
             "/notes/sfm",
             "/notes/iMAP",
             "/notes/gaussian-splatting-slam",
+            "/notes/splatam",
           ]
         },
       ]
