@@ -29,6 +29,7 @@ export default defineUserConfig({
             "/notes/gaussian-splatting-slam",
             "/notes/splatam",
             "/notes/dust3r",
+            "/notes/mast3r",
           ]
         },
       ]
